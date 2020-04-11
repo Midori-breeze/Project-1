@@ -4,6 +4,8 @@ Project1完成情况
 
 学号：19302010072
 
+静态网址： https://midori-breeze.github.io/Project-1/
+
 -------------------
 
 ### 基础部分完成情况
