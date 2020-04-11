@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>search</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/common.css" rel="stylesheet" type="text/css">
+    <link href="css/search.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<nav>
+    <img src="../images/icon/叶子2.png" width="45" height="40">
+    <a href="home.html" id="home">Home</a>
+    <a href="browser.html" id="browse">Browse</a>
+    <a href="search.html" id="highlight">Search</a>
+    <div class="dropdown">
+        <span>My account ▼</span>
+        <div class="dropdown-content">
+            <table>
+                <tr>
+                    <td><img src="../images/icon/上传.png" width="22" height="22"></td>
+                    <td><a href="upload.html">Upload</a></td>
+                </tr>
+                <tr>
+                    <td><img src="../images/icon/图片.png" width="22" height="22"></td>
+                    <td><a href="my_photo.html">My Photo</a></td>
+                </tr>
+                <tr>
+                    <td><img src="../images/icon/点赞.png" width="22" height="22"></td>
+                    <td><a href="favor.html">My favourites</a></td>
+                </tr>
+                <tr>
+                    <td><img src="../images/icon/我的.png" width="22" height="22"></td>
+                    <td><a href="../index.html">Log in</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</nav>
+<div id="text">
+    <span id="topic">Search</span>
+   <form>
+    <label>
+        <input type="radio" name="filter" style="width: 25px;">
+        <input type="search" name="fbt" placeholder="Filter by Title">
+    </label><br>
+    <label><br>
+        <input type="radio" name="filter" style="width: 25px;">
+        <input type="text" name="fbd" placeholder="Filter by Description" >
+    </label>
+       <button type="button" onclick="alert('Meow~')">search</button>
+   </form>
+</div>
+<table class="display">
+    <tr>
+        <td colspan="2" id="result">Result</td>
+    </tr>
+    <tr>
+        <td> <a href="details.html"> <div class="image" style=" background: url(./../images/normal/medium/222222.jpg) no-repeat center;"></div></a></td>
+        <td><h3>Title</h3><p>Yellowstone National Park is the centerpiece of the Greater Yellowstone Ecosystem, the largest intact ecosystem in the Earth's northern temperate zone.The park is known for its wildlife and geothermal features; the Old Faithful Geyser is one of the most popular features in the park.</p></td>
+    </tr>
+    <tr>
+        <td><a href="details.html"> <div class="image" style=" background: url(./../images/normal/medium/222222.jpg) no-repeat center;"></div></a></td>
+        <td><h3>Title</h3><p>Yellowstone National Park is the centerpiece of the Greater Yellowstone Ecosystem, the largest intact ecosystem in the Earth's northern temperate zone.The park is known for its wildlife and geothermal features; the Old Faithful Geyser is one of the most popular features in the park.</p></td>
+    </tr>
+    <tr>
+        <td><a href="details.html"> <div class="image" style=" background: url(./../images/normal/medium/222222.jpg) no-repeat center;"></div></a></td>
+        <td><h3>Title</h3><p>Yellowstone National Park is the centerpiece of the Greater Yellowstone Ecosystem, the largest intact ecosystem in the Earth's northern temperate zone.The park is known for its wildlife and geothermal features; the Old Faithful Geyser is one of the most popular features in the park.</p></td>
+    </tr>
+    <tr>
+        <td><a href="details.html"> <div class="image" style=" background: url(./../images/normal/medium/222222.jpg) no-repeat center;"></div></a></td>
+        <td><h3>Title</h3><p>Yellowstone National Park is the centerpiece of the Greater Yellowstone Ecosystem, the largest intact ecosystem in the Earth's northern temperate zone.The park is known for its wildlife and geothermal features; the Old Faithful Geyser is one of the most popular features in the park.</p></td>
+    </tr>
+</table>
+<div id="page" onclick="alert('GoGoGo!')">
+    <span><<</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>>></span>
+</div>
+<footer>Privacy Policy丨
+    Terms of use丨
+    License Agreement丨
+    Made with love by zjn No.19302010072
+</footer>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>upload</title>
+    <script src="js/jquery.js"></script>
+    <script src="js/upload.js"></script>
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/upload.css" rel="stylesheet" type="text/css">
+    <link href="css/common.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<nav>
+    <img src="../images/icon/叶子2.png" width="45" height="40">
+    <a href="home.html">Home</a>
+    <a href="browser.html">Browse</a>
+    <a href="search.html">Search</a>
+    <div class="dropdown">
+        <span>My account ▼</span>
+        <div class="dropdown-content">
+            <table>
+                <tr>
+                    <td><img src="../images/icon/上传.png" width="22" height="22"></td>
+                    <td><a href="upload.html">Upload</a></td>
+                </tr>
+                <tr>
+                    <td><img src="../images/icon/图片.png" width="22" height="22"></td>
+                    <td><a href="my_photo.html">My Photo</a></td>
+                </tr>
+                <tr>
+                    <td><img src="../images/icon/点赞.png" width="22" height="22"></td>
+                    <td><a href="favor.html">My favourites</a></td>
+                </tr>
+                <tr>
+                    <td><img src="../images/icon/我的.png" width="22" height="22"></td>
+                    <td><a href="../index.html">Log in</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</nav>
+<div>
+    <span id="topic">Upload</span>
+    <fieldset id="preview">
+    </fieldset>
+    <div class="center">
+        <input type="file" id="upload"><br>
+        <table>
+            <tr>
+                <td>title：</td>
+                <td><input type="text" name="title"></td>
+            </tr>
+            <tr>
+                <td>description：</td>
+                <td><input type="text" name="description"></td>
+            </tr>
+            <tr>
+                <td>country：</td>
+                <td><input type="text" name="country"></td>
+            </tr>
+            <tr>
+                <td>city：</td>
+                <td><input type="text" name="city"></td>
+            </tr>
+        </table>
+        <div class="refresh" onclick="alert('已上传')">
+            <a href="my_photo.html">
+                <button class="submit" type="button">upload</button>
+            </a>
+        </div>
+    </div>
+</div>
+<footer>Privacy Policy丨
+    Terms of use丨
+    License Agreement丨
+    Made with love by zjn 19302010072
+</footer>
+</body>
+</html>

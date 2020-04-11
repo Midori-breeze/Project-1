@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Browser</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/common.css" rel="stylesheet" type="text/css">
+    <link href="css/browse.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/browser.js"></script>
+</head>
+
+<body>
+<nav>
+    <img src="../images/icon/叶子2.png" width="45" height="40">
+    <a href="home.html" id="home">Home</a>
+    <a href="browser.html" id="highlight">Browse</a>
+    <a href="search.html" id="search">Search</a>
+    <div class="dropdown">
+        <span>My account ▼</span>
+        <div class="dropdown-content">
+            <table>
+                <tr>
+                    <td><img src="../images/icon/上传.png" width="22" height="22"></td>
+                    <td><a href="upload.html">Upload</a></td>
+                </tr>
+                <tr>
+                    <td><img src="../images/icon/图片.png" width="22" height="22"></td>
+                    <td><a href="my_photo.html">My Photo</a></td>
+                </tr>
+                <tr>
+                    <td><img src="../images/icon/点赞.png" width="22" height="22"></td>
+                    <td><a href="favor.html">My favourites</a></td>
+                </tr>
+                <tr>
+                    <td><img src="../images/icon/我的.png" width="22" height="22"></td>
+                    <td><a href="../index.html">Log in</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</nav>
+
+<aside>
+    <table>
+        <tr><td class="selector">Search by Title</td></tr>
+        <tr><td> <input type="text" id="text"><img src="../images/icon/搜索.png" width="30" onclick="alert('GoGoGo!')"></td></tr>
+    </table>
+    <table onclick="alert('GoGoGo!')">
+        <tr>
+            <td class="selector">Hot Country</td>
+        </tr>
+        <tr>
+            <td>China</td>
+        </tr>
+        <tr>
+            <td>Japan</td>
+        </tr>
+        <tr>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>France</td>
+        </tr>
+        <tr>
+            <td>Britain</td>
+        </tr>
+    </table>
+    <table onclick="alert('GoGoGo!')">
+        <tr>
+            <td class="selector">
+            Hot City</td>
+        </tr>
+
+        <tr>
+            <td>Shanghai</td>
+        </tr>
+        <tr>
+            <td>Beijing</td>
+        </tr>
+        <tr>
+            <td>Venice</td>
+        </tr>
+        <tr>
+            <td>Tokyo</td>
+        </tr>
+    </table>
+    <table onclick="alert('GoGoGo!')" id="table3">
+        <tr>
+            <td class="selector">Hot Contents</td>
+        </tr>
+
+        <tr>
+            <td>Scenery</td>
+        </tr>
+        <tr>
+            <td>City</td>
+        </tr>
+        <tr>
+            <td>People</td>
+        </tr>
+        <tr>
+            <td>Animal</td>
+        </tr>
+        <tr>
+            <td>Building</td>
+        </tr>
+    </table>
+</aside>
+<div class="main">
+    <div class="filter">
+    <select id="content">
+        <option value="0">Filter by Content</option>
+        <option>Scenery</option>
+        <option>City</option>
+        <option>People</option>
+        <option>Animal</option>
+        <option>Building</option>
+        <option>Wonder</option>
+    </select>
+    <select id="country">
+        <option value="0">Filter by Country</option>
+        <option value="China">China</option>
+        <option value="Japan">Japan</option>
+        <option value="Italy">Italy</option>
+        <option value="America">America</option>
+    </select>
+    <select id="city">Filter by City
+        <option value="0">Filter by City</option>
+    </select>
+        <button type="button" onclick="alert('GoGoGo!')">upload</button>
+</div>
+<table>
+    <tr>
+        <td><a href="details.html"> <div style="width: 150px; height: 150px; background-size: cover;background: url(./../images/normal/medium/222222.jpg) no-repeat center;overflow:hidden; "></div></a></td>
+        <td><a href="details.html"> <div style="width: 150px; height: 150px; background-size: cover;background: url(./../images/normal/medium/222223.jpg) no-repeat center;overflow:hidden; "></div></a></td>
+        <td><a href="details.html"> <div style="width: 150px; height: 150px; background-size: cover;background: url(./../images/normal/medium/5855213165.jpg) no-repeat center;overflow:hidden; "></div></a></td>
+        <td><a href="details.html"> <div style="width: 150px; height: 150px; background-size: cover;background: url(./../images/normal/medium/5856616479.jpg) no-repeat center;overflow:hidden; "></div></a></td>
+    </tr>
+    <tr>
+        <td><a href="details.html"> <div style="width: 150px; height: 150px; background-size: cover;background: url(./../images/normal/medium/5857298322.jpg) no-repeat center;overflow:hidden; "></div></a></td>
+        <td><a href="details.html"> <div style="width: 150px; height: 150px; background-size: cover;background: url(./../images/normal/medium/6114850721.jpg) no-repeat center;overflow:hidden; "></div></a></td>
+        <td><a href="details.html"> <div style="width: 150px; height: 150px; background-size: cover;background: url(./../images/normal/medium/5855735700.jpg) no-repeat center;overflow:hidden; "></div></a></td>
+        <td><a href="details.html"> <div style="width: 150px; height: 150px; background-size: cover;background: url(./../images/normal/medium/6114867983.jpg) no-repeat center;overflow:hidden; "></div></a></td>
+    </tr>
+    <tr>
+        <td><a href="details.html"> <div style="width: 150px; height: 150px; background-size: cover;background: url(./../images/normal/medium/6114881215.jpg) no-repeat center;overflow:hidden; "></div></a></td>
+        <td><a href="details.html"> <div style="width: 150px; height: 150px; background-size: cover;background: url(./../images/normal/medium/6114907897.jpg) no-repeat center;overflow:hidden; "></div></a></td>
+        <td><a href="details.html"> <div style="width: 150px; height: 150px; background-size: cover;background: url(./../images/normal/medium/6119130918.jpg) no-repeat center;overflow:hidden; "></div></a></td>
+        <td><a href="details.html"> <div style="width: 150px; height: 150px; background-size: cover;background: url(./../images/normal/medium/6592902825.jpg) no-repeat center;overflow:hidden; "></div></a></td>
+    </tr>
+    <tr>
+        <td><a href="details.html"> <div style="width: 150px; height: 150px; background-size: cover;background: url(./../images/normal/medium/6596046267.jpg) no-repeat center;overflow:hidden; "></div></a></td>
+        <td><a href="details.html"> <div style="width: 150px; height: 150px; background-size: cover;background: url(./../images/normal/medium/8152043422.jpg) no-repeat center;overflow:hidden; "></div></a></td>
+        <td><a href="details.html"> <div style="width: 150px; height: 150px; background-size: cover;background: url(./../images/normal/medium/8152048712.jpg) no-repeat center;overflow:hidden; "></div></a></td>
+        <td><a href="details.html"> <div style="width: 150px; height: 150px; background-size: cover;background: url(./../images/normal/medium/8646991554.jpg) no-repeat center;overflow:hidden; "></div></a></td>
+    </tr>
+</table>
+</div>
+
+<div id="page" onclick="alert('GoGoGo!')">
+    <span><<</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>>></span>
+</div>
+<footer>Privacy Policy丨
+    Terms of use丨
+    License Agreement丨
+    Made with love by ZJN 19302010072
+</footer>
+</body>
+</html>
